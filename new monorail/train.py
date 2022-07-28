@@ -7,11 +7,13 @@ class train:
     def __init__(self, id,screen,newx,newy,x,y,start_time):
         self.id = id
         self.k=1
+        self.k2=1
         self.screen = screen
         self.newx=newx
         self.newy=newy
         self.accelerationx=0
         self.accelerationy=0
+        self.flagspeed = 1 #whyyy
         self.speed=1
         self.x = x 
         self.y = y 
@@ -30,10 +32,15 @@ class train:
         self.endprocess=0#flag for ending the day and getting back to start stations
         self.backward=0
         self.f=0
+        self.positionflg=0
         self.fl=1
+        self.history=0
+        self.trips=0
+        
     def west_move(self):
         if (self.xflage == 'start' and self.flag1 == 0 and self.x < 1470 and self.flagStop == 0 and self.flagmov == 1):
             self.end_time = time.time()
+            #print(self.id,self.flagspeed)
             if self.end_time - self.start_time >= 1:
                 if self.backward==0:
                     self.accelerationx=1*(self.speed)

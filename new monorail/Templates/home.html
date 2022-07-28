@@ -34,7 +34,7 @@ ul a {
 <body class="center" style=" background-color: #f5f5f5">
     <div id="div1" class="container shadow p-3 mb-5 bg-body rounded border border-5" style="border-radius:5px">
             <div class="auto-style76">
-                <a class="navbar-brand" href="#" style="max-width:158px;"><img src="{{ url_for('static', filename='images/Picture1.png') }}" width="80px" style="padding-bottom:6px"></a>
+                <a class="navbar-brand" href="#" style="max-width:258px; width:110px!important;"><img style="width:110px!important;" src="{{ url_for('static', filename='images/MMCS.png') }}" width="80px" style="padding-bottom:6px"></a>
                 <a class="navbar-brand" style="font-size:25px">Monorail</a>
                 <a class="navbar-brand rounded float-end" href="#" style="max-width:158px;"><img src="{{ url_for('static', filename='images/Monorail_Site.png') }}" width="60px" style="padding-bottom:6px;" ></a>
                 
@@ -50,17 +50,27 @@ ul a {
                         <tr>
                           <th scope="row">1</th>
                           <td>Train Report</td>
-                          <td><button type="button" class="btn btn-light" ><a href="http://127.0.0.1:5000/report" style="text-decoration:none ;">Show</a></button></td>
+                          <td><button type="button" class="btn btn-light" ><a href="/report" style="text-decoration:none ;">Show</a></button></td>
                         </tr>
                         <tr>
                           <th scope="row">2</th>
                           <td>Train History</td>
-                          <td><button type="button" class="btn btn-light"><a href="http://127.0.0.1:5000/report" style="text-decoration:none ;">Show</a></button></td>
+                          <td><button type="button" class="btn btn-light"><a href="/Trainhistory" style="text-decoration:none ;">Show</a></button></td>
                         </tr>
                         <tr>
                           <th scope="row">3</th>
                           <td >Maintenance</td>
-                          <td><button type="button" class="btn btn-light"><a href="http://127.0.0.1:5000/maintenance" style="text-decoration:none ;">Show</a></button></td>
+                          <td><button type="button" class="btn btn-light"><a href="/maintenance" style="text-decoration:none ;">Show</a></button></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td >Operators</td>
+                          <td><button type="button" class="btn btn-light"><a href="/operator" style="text-decoration:none ;">Show</a></button></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td >Signins</td>
+                          <td><button type="button" class="btn btn-light"><a href="/login" style="text-decoration:none ;">Show</a></button></td>
                         </tr>
                       </tbody>
                     
@@ -75,7 +85,7 @@ ul a {
                         <li class="list-inline-item"><a href="#">Terms</a></li>
                         <li class="list-inline-item"><a href="https://bombardier.com/en/privacy#:~:text=You%20have%20the%20right%20to%20object%20to%20our%20use%20of,purposes%20%E2%80%93%20to%20withdraw%20your%20consent">Privacy Policy</a></li>
                     </ul>
-                    <p class="copyright">MCMS © 2022</p>
+                    <p class="copyright">MMCS © 2022</p>
                 </div>
                 
               </div>
