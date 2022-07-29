@@ -1,2 +1,2 @@
 # Monorail-gradproject
-monorail system using python,pyqt5,numpy,flask,html,css
+Monitoring and control System monorail, graduation project using python, pygame, pyQT5, NumPy, AI algorithms, HTML, CSS, Flask, Android studio, Firebase, PhpMyAdmin, sqlalchemy. The system is demo of a full automated system of the new Cairo monorail implemented and designed as anticollision, antihuman interaction, controllable System. The desktop produce html reports using flask and MySQL database through phpMyAdmin, the reports contain every detail of the desktop app. the system is also connected with emergency centers with android applications through firebase realtime database to alert emergency centers if any accidents happens.
